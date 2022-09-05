@@ -1,0 +1,64 @@
+#obj{
+     
+    width: 100%;
+    min-height: 100%;
+
+    display: inline-block;
+    position: static;
+    left: 0px;
+    right: 0%;
+    
+    padding-top: 2%;
+    padding-bottom: 7%;
+    background-image: url("./Desing/background-2.svg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+#obj > p{
+    max-width: 30%;
+    max-height: 300px;
+    position:static;
+    display:block;
+    padding: 3%;
+    text-align: center;
+    line-height: 15px;
+    color: white
+    
+}
+
+h2{
+    float: right;
+    padding-right: 8%;
+    padding-top: 2%;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 1395px){
+    #obj{
+        height: 100%;
+        width: 100%;
+        background-color: #012436;
+    }
+
+    #obj> p {
+        max-height: 300px;
+        overflow-y:  scroll;
+        padding: 3%;
+        max-width: 300px;
+
+        
+    }
+}
+
+@media (max-width: 450px){
+    #obj> p {
+        max-height: 200px;
+        overflow-y:  scroll;
+        padding: 3%;
+        min-width: 100px;
+    }
+}
